@@ -2,11 +2,12 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {fontfamily:{
-      mullish:["Mulish","sans-serif"],
+    extend: {
+      fontFamily:{
+      mullish :["Mulish","sans-serif"],
     },
   colors:{
-    deepblue:"#02042a",
+    deepBlue:"#02042a",
     lightBlue: "#2b84ea",
     lightBlue300:"#4b94ed",
     lightBlue500: "#0b72e7",
@@ -19,6 +20,7 @@ module.exports = {
 
   },},
 },
+
  
   plugins: [],
 }
