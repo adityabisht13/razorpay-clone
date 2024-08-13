@@ -8,11 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <div class="">
+              <!--Navbar-->
     <nav class="bg-deepBlue ">
         <div class="flex relative w-[1080px] mx-auto items-center justify-between ">
             <!--logo-->
         <a href="" class="cursor-pointer py-7 pr-7  ">
-            <img src="images/logo-dark.svg" height="30px" width="125px" alt="">
+            <img src="images/logo.svg" height="30px" width="125px" alt="">
         </a>
         <ul class="flex gap-6 ">
             <li class="text-white py-7 font-mullish hover:text-lightBlue cursor-pointer transition-all duration-200 relative group">
@@ -54,5 +56,29 @@
         </div>
 
     </nav>
+    <!--HERO SECTION-->
+    <section class=" relative bg-deepBlue  ">
+        <div class="flex mx-auto  w-10/12 max-w-[1080px] -mt-0.5 justify-between items-center">
+            <!--Left part-->
+          <div class="space-y-8"><!--flex iss liye nhi kiya kyoki uskei wjah se button stretch hoh rha tah-->
+             <h1 class="text-white font-mullish font-bold text-[40px] leading-[1.2] ">Power your finance ,grow your business</h1>
+             <div class="bg-greenLight w-6 h-1 "></div>
+             <p class="text-white font-mullish font-bold text-[18px] leading-7 opacity-70">Accepts payments from customer. Automate payouts to vendors & employess. Never run out of working capitals.</p>
+             <button class="bg-lightBlue text-white  rounded-md font-mullish font-bold py-[14px] px-[18px] hover:bg-lightBlue500 transition-all duration-200">Sign up now</button>
+           </div>
+          <!--Right part-->
+          <div >
+              <img class="w-full max-w-[680px]" src="assets/hero-illustration.jpg" alt="">
+          </div>
+        </div>
+        <!--shape part-->
+        <div class="w-[103%] absolute left-0 right-0 overflow-hidden"><!--particular image koh position krna hoh left right kr kei toh absolute property use-->
+            <img class="w-full object-fill " src="assets/hero-shape.svg" alt="">
+        </div>
+
+    </section>
+    
+    
+</div>
 </body>
 </html>
